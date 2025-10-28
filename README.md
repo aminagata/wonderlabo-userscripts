@@ -16,7 +16,7 @@ LMS 管理画面や Notion の操作を少し楽にするためのユーザー�
 
 ---
 
-### ⚙️ 2️⃣ Chrome の設定を変更
+### 2️⃣ Chrome の設定を変更
 
 Tampermonkey でユーザースクリプトを正しく動かすには、  
 Chrome 側の拡張機能設定を有効化する必要があります。
@@ -32,7 +32,7 @@ Chrome 側の拡張機能設定を有効化する必要があります。
 
 ---
 
-### 🧩 3️⃣ スクリプトをインストール
+### 3️⃣ スクリプトをインストール
 
 以下のリンクをクリックすると Tampermonkey が自動で起動し、  
 「このスクリプトをインストールしますか？」と表示されます。  
@@ -44,19 +44,25 @@ Chrome 側の拡張機能設定を有効化する必要があります。
 
 ### 🎓 LMS 関連
 
-| スクリプト名                       | 説明                                                     | インストール                                                                                                           |
-| ---------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| **lms-attendance-buttons.user.js** | 各生徒名の下に「参加」「不参加」ボタンを追加し、自動選択 | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/lms-attendance-buttons.user.js) |
-| **lms-select-myname.user.js**      | 出欠編集ページで自分の名前を自動で一番上に移動・選択     | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/lms-select-myname.user.js)      |
-| **lms-title.user.js**              | ページタイトルに講座情報を反映（`(〇ヶ月)`を削除）       | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/lms-title.user.js)              |
+| スクリプト名                           | 説明                                                                          | インストール                                                                                                               |
+| -------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **lms-attendance-bulk-select.user.js** | 出欠編集ページで「良い」（完全一致）&「参加」を自動選択するボタンを右上に追加 | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/lms-attendance-bulk-select.user.js) |
+| **lms-attendance-buttons.user.js**     | 各生徒名の下に「参加」「不参加」ボタンを追加し、自動選択                      | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/lms-attendance-buttons.user.js)     |
+| **lms-favicon-from-logo.user.js**      | ページ内のヘッダーロゴ SVG を取得し、favicon に設定                           | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/lms-favicon-from-logo.user.js)      |
+| **lms-select-myname.user.js**          | 出欠編集ページで自分の名前を自動で一番上に移動・選択                          | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/lms-select-myname.user.js)          |
+| **lms-title.user.js**                  | ページタイトルに講座情報を反映（`(〇ヶ月)`を削除）                            | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/lms-title.user.js)                  |
+| **lms-usergroup-id-copy.user.js**      | user_groups テーブルの各行に ID コピー用ボタンを追加                          | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/lms-usergroup-id-copy.user.js)      |
 
 ---
 
 ### 🧠 Notion 関連
 
-| スクリプト名                     | 説明                                               | インストール                                                                                                         |
-| -------------------------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **notion-auto-loadmore.user.js** | 「さらに読み込む」ボタンを自動クリックして全件表示 | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/notion-auto-loadmore.user.js) |
+| スクリプト名                        | 説明                                                                          | インストール                                                                                                            |
+| ----------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **notion-auto-loadmore.user.js**    | 「さらに読み込む」ボタンを自動クリックして全件表示                            | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/notion-auto-loadmore.user.js)    |
+| **notion-click-to-lms.user.js**     | スケジュールセルクリックで LMS のユーザーグループ検索結果ページを開く         | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/notion-click-to-lms.user.js)     |
+| **notion-favicon-reset.user.js**    | ブックマーク時に Notion 固有の favicon を常に維持                             | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/notion-favicon-reset.user.js)    |
+| **notion-lms-group-linker.user.js** | Notion 右ペインにグループ ID 入力欄を追加（LMS 出席管理ページへのリンク生成） | [インストール](https://raw.githubusercontent.com/aminagata/wonderlabo-userscripts/main/notion-lms-group-linker.user.js) |
 
 ---
 
